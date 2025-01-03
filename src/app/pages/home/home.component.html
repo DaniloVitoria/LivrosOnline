@@ -1,30 +1,25 @@
-
 <app-header></app-header>
 
-
-<div class="home-content"> 
-
-<po-slide [p-height]="450" [p-slides]="sampleItems" class="home-margin">
-  <ng-template p-slide-content-template let-item class="slide1">
-    <div
-      class="sample-background-image"
-      [style.background-image]="'url(' + item.imagem + ')'"
-      [style.backgroundSize]="'cover'"
-      [style.height.%]="100"
-    >
-      <div class="po-row">
-        <div
-          class="po-offset-sm-1 po-offset-md-1 po-offset-lg-1 po-offset-xl-1 po-lg-5 po-sm-10 po-mt-4 po-mb-4 po-p-5"
-          [style.background]="'white'"
-        >
-          <div class="po-font-text">{{ item.date }} by {{ item.author }}</div>
-          <div class="po-font-display">{{ item.title }}</div>
-          <po-divider></po-divider>
-          <div class="po-font-text-large-bold po-mb-3">{{ item.description }}</div>
-          <po-button p-label="Read More" (p-click)="redirectLink(item.link)" ></po-button>
+<div class="home-content">
+  <div class="slide-container">
+    <po-slide [p-height]="515" [p-slides]="sampleItems" class="home-margin">
+      <ng-template p-slide-content-template let-item class="slide1">
+        <div class="sample-background-image">
+          <img class="book-image" [src]="item.imagem" alt="{{ item.title }}">
         </div>
-      </div>
-    </div>
-  </ng-template>
-</po-slide>
+        <div class="po-row title-books">
+          <div
+            class="po-offset-sm-1 po-offset-md-1 po-offset-lg-1 po-offset-xl-1 po-lg-5 po-sm-10 po-mt-4 po-mb-4 po-p-5"
+            [style.background]="'white'"
+          >
+            <div class="po-font-text">{{ item.date }} by {{ item.author }}</div>
+            <div class="po-font-display">{{ item.title }}</div>
+            <po-divider></po-divider>
+            <div class="po-font-text-large-bold po-mb-3">{{ item.description }}</div>
+            <po-button p-label="Read More" (p-click)="redirectLink(item.link)"></po-button>
+          </div>
+        </div>
+      </ng-template>
+    </po-slide>
+  </div>
 </div>

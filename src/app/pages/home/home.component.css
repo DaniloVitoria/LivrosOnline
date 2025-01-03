@@ -1,23 +1,50 @@
-.sample-background-image {
- 
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  width: 80%;
   margin-left: 10%;
-  margin-right: 10% ;
+  background: linear-gradient(to left, #ff7f50, #1e90ff);
+}
 
+.slide-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.sample-background-image {
+  margin-left: 10%;
+  margin-right: 10%;
   background-size: contain;
   background-position: center;
+}
+
+.book-image {
+  position: relative;
+  width: 24%; 
+  height: auto; 
+  display: block; 
+  margin-left: 10% auto; 
+  margin-top: 20%;
+}
+
+.title-books {
+  position: relative;
+  width: 70%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+  margin-top: -34%; 
+  margin-left: 40%;
+  text-align: center; 
+}
+
+@media (max-width: 700px ){
+  .title-books{
+  width: 60%;
   }
+}
 
-
-
-  .po-slide-button-next {
-    position: absolute;
-    right: 30px;
-  }
-
-  .po-slide-button-prev {
-    left: 20px;
-  }
-
- .home-content {
-  margin-top: 5%;
- }

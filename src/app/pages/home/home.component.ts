@@ -16,7 +16,7 @@ export class HomeComponent {
       date: 'December 11, 2016',
       author: 'Patrick Buggy',
       link: 'https://bit.ly/2OVCypl',
-      imagem: 'https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2017/08/23131451/livros.jpg'
+      imagem: 'https://png.pngtree.com/png-vector/20231020/ourmid/pngtree-watercolor-library-book-clip-art-png-image_10285452.png'
     },
     {
       title: 'What Meditation Isn’t',
@@ -24,7 +24,7 @@ export class HomeComponent {
       date: 'August 17, 2018',
       author: 'Seizan Egyo',
       link: 'https://bit.ly/2UercLM',
-      imagem: '/assets/graphics/landscape-02.jpeg'
+      imagem: 'https://inkandvolt.com/cdn/shop/files/penguin-book-miraclemorning-feature.png?v=1701413938'
     },
     {
       title: 'Get out of your mental cocoon',
@@ -32,7 +32,7 @@ export class HomeComponent {
       date: 'January 22, 2019',
       author: 'Gustavo Razzetti',
       link: 'https://bit.ly/2Tbc16b',
-      imagem: '/assets/graphics/landscape-03.jpeg'
+      imagem: 'https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale,dpr_1.5/jackets/9781408886991.jpg'
     }
   ];
 
