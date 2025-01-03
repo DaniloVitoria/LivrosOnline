@@ -1,0 +1,17 @@
+.sample-background-image {
+  margin-left: 10%;
+  margin-right: 10% ;
+  background-size: contain;
+  background-position: center;
+  }
+
+
+
+  .po-slide-button-next {
+    position: absolute;
+    right: 30px;
+  }
+
+  .po-slide-button-prev {
+    left: 20px;
+  }
