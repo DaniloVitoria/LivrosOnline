@@ -2,10 +2,10 @@
 <app-header></app-header>
 
 
+<div class="home-content"> 
 
-
-<po-slide [p-height]="450" [p-slides]="sampleItems" class="slide1">
-  <ng-template p-slide-content-template let-item>
+<po-slide [p-height]="450" [p-slides]="sampleItems" class="home-margin">
+  <ng-template p-slide-content-template let-item class="slide1">
     <div
       class="sample-background-image"
       [style.background-image]="'url(' + item.imagem + ')'"
@@ -27,3 +27,4 @@
     </div>
   </ng-template>
 </po-slide>
+</div>
